@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>saylani assignment form</title>
+
+      
+    </form>
+    <style type="text/css" media="all">
+    body {
+      font-family: Times New Roman, areal ;
+      color: #666666;
+       text-shadow: 0.5px 0.5px 0px #000000;
+      
+    }
+      .fed {
+        background-color: #dcdcdc;
+        background-image: url('imgbc.jpg');
+        background-size: 2000px;
+        background-position-x:-750px ;
+        
+        background-repeat: no-repeat;
+       
+      }
+      img {
+        max-height: 9000px;
+      }
+      .leg {
+        width: 200px;
+        border: 2px solid blue;
+        text-align: center;
+        background-color: #0088dd;
+        margin:2px auto;
+        text-transform: uppercase;
+        border-radius: 5px;
+        color: #666666; 
+        text-shadow: 1px 1px 0px #000000;
+      }
+      .sub {
+        background-color: #666666;
+        border-color: #000000;
+      }
+      input {
+        font-size: 80%;
+        background-color: silver;
+        border: 2px solid brown;
+
+      }
+      .coments {
+        background-color: silver;
+      }
+    .ccl {
+        color: #666666; 
+        text-shadow: 1px 1px 0px #000000;
+    }
+    </style>
+    
+  </head>
+  <body>
+    <form action="Formsub.html" method="post" accept-charset="utf-8">
+    <fieldset class=" fed">
+      
+        <legend class="leg">personal detail</legend>
+        <lable>first name: <input type="text" name="name"placeholder=" first name" /></lable>
+        <br>
+        <br />
+        <lable>last name: <input type="text" name="name"placeholder=" last name"/> </lable>
+        <br /><br />
+        <label>date of birth
+        <input type="date" name="departure" />
+        </lable>
+        <br /><br />
+        <label for="email">Your email: </label>     
+        <input type="text" name="email" id="email" placeholder="Enter Email">  
+        <br><br />
+        <lable>mobile: <input type="text" name="telephone"placeholder="Enter number"/></lable>
+        <br /><br />
+        gender: 
+        <input id="femail"
+        type="radio" 
+        name="gender" 
+        value="f" >
+        <label for="femail">femail
+        </label>
+        
+        <input id="male" 
+        type="radio" 
+        name="gender"
+        value="m">
+        <lable for="male">male</lable>
+        <br /><br />
+      
+        <label for="coments">Address: 
+        <textarea name="coments" 
+    cols="100" rows="3" class="coments">
+        </textarea>
+        <br /><br />
+        </lable>
+        <label for="city">city: 
+        </label>
+        <input type="text" name="" id="" value="" placeholder="Enter your city"/>
+        <br /><br />
+        <label for="pincode">pincode:
+        </label>
+        <input type="number" name="" id="" value="" placeholder="enter pincode" />
+        <br /><br />
+        hobies: 
+        <input id="cricket"
+        type="checkbox" 
+        name="hobies" 
+        value="ck" >
+        <label for="cricket">cricket
+        </label>
+        
+        <input id="football" 
+        type="checkbox" 
+        name="hobies"
+        value="ft">
+        <lable for="football">football</lable>
+        
+        <input id="hockey"
+        type="checkbox" 
+        name="hobies" 
+        value="hk" >
+        <label for="hockey">hockey
+        </label>
+        
+        <input id="tenis" 
+        type="checkbox" 
+        name="hobies"
+        value="tn">
+        <lable for="tenis">tenes</lable>
+        
+
+        <input type="checkbox" 
+        name="hobies" id="other" value="" />
+        <label for="other">other
+        <input type="text" name="hobies" id="" value="" /></label>
+        <br />
+      <h4>  Qualification:</h4>
+
+       <table>
+        <tr class="ccl"> 
+        <th>degree</th> 
+        <th>school</th>
+        <th>board/university</th> 
+        <th>per/gpa</th> 
+        </tr> 
+        <tr> 
+        <td>Matriculation</td> 
+        <td><input type="text" name="" id="" value="" />
+        </td>  
+        <td><input type="text" name="" id="" value="" /></td>
+        <td><input type="text" name="" id="" value=""/>
+        </td>
+        </tr>
+        
+        <tr>  
+        <td>Intermediate</td>
+        <td><input type="text" name="" id="" value="" /></td>  
+        <td><input type="text" name="" id="" value="" /></td> 
+        <td><input type="text" name="" id="" value="" /></td>
+        
+        </tr> 
+        <tr>  
+        <td>graduation</td>  
+        <td><input type="text" name="" id="" value="" /></td>  <td><input type="text" name="" id="" value="" /></td> 
+        <td><input type="text" name="" id="" value="" /></td> 
+        </tr>
+        <tr class="even">  
+        <td>other</td> 
+        <td><input type="text" name="" id="" value="" /></td> 
+        <td><input type="text" name="" id="" value="" /></td>  
+        <td><input type="text" name="" id="" value="" /></td>
+        </tr>
+        </table>
+        <br />
+        course applied for
+        <input id="bba"
+        type="radio" 
+        name="caf" 
+        value="bba" >
+        <label for="bba">BBA
+        </label>
+        
+        <input id="mba" 
+        type="radio" 
+        name="caf"
+        value="mba">
+        <lable for="mba">M.BA</lable>
+
+        <input id="msc"
+        type="radio" 
+        name="caf" 
+        value="msc" >
+        <label for="msc">M.Sc
+        </label>
+        
+        <input id="Ba" 
+        type="radio" 
+        name="caf"
+        value="ba">
+        <lable for="va">B.A</lable>
+        <br />
+        <input class="sub" type="submit" name="" id="" value="submit" />
+        
+    </fieldset>
+    </form>
+  </body>
+</html>
